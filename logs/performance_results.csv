@@ -1,0 +1,3 @@
+scenario,successful,failed,average_ms,median_ms
+direct,100,0,16.508,16.478
+proxy,100,0,17.255,17.145

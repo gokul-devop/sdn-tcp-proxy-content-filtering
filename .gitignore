@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local virtual environments and secrets
+.venv/
+venv/
+ryu310-venv/
+.env
+.env.*
+!.env.example
+
+# Runtime logs (retain actual performance measurements)
+logs/*
+!logs/performance_results.csv
+
+# Editor / OS artifacts
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Working backup copies
+*.backup
+*.bak

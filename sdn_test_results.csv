@@ -1,0 +1,6 @@
+test,scenario,requests,successful,failed,elapsed_seconds,average_latency_ms,median_latency_ms
+benchmark,direct,100,100,0,,16.508,16.478
+benchmark,proxy,100,100,0,,17.255,17.145
+concurrency,10 clients,10,10,0,0.04,36.108,
+concurrency,20 clients,20,20,0,0.046,37.921,
+concurrency,40 clients,40,40,0,0.07,48.118,
